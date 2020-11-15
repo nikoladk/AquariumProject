@@ -47,16 +47,16 @@ public abstract class BaseFish implements Fish {
 
     @Override
     public int getSize() {
-        return 0;
+      return this.size;
     }
 
     @Override
     public String getName() {
-        return null;
+        return this.name;
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return this.price;
     }
 }
